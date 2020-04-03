@@ -9,7 +9,7 @@
       chdir: /opt/docker
 
   - name: Create tag to image
-    command: docker tag docker-webapp-image onlieikumar77/docker-webapp-image
+    command: docker tag docker-webapp-image onlineikumar77/docker-webapp-image
 
   - name: Push image on to dockerhub
     command: docker push onlineikumar77/docker-webapp-image
